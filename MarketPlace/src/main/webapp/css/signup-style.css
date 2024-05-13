@@ -1,0 +1,134 @@
+body {
+  background: linear-gradient(to bottom right, #f8f8f8, #e0e0e0); /* Example */
+}
+
+#container {
+   display: flex; /* Arrange signup and description side-by-side */
+   justify-content: space-around; /* Distribute space around the elements */
+   align-items: center; /* Vertically center divs in the container */
+   background-color: #f8f8f8;  /* Light background color */
+   padding: 40px; /* Adds padding around the content */
+}
+
+.whysign {
+  float: left;
+  background-color: white;
+  width: 480px;
+  height: 528px;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.whysignLogin
+{
+	float: left;
+  background-color: white;
+  width: 480px;
+  height: 347px;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.whyforgotPassword
+{
+	float: left;
+  background-color: white;
+  width: 480px;
+  height: 470px;
+  border-radius: 0 5px 5px 0;
+  padding-top: 20px;
+  padding-right: 20px;
+}
+.signup {
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;  /* Softly rounded corners */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+.signup form {
+    width: 350px; /* Set a width for the form */
+    margin: 20px auto; /* Center the form  */
+}
+.signup input[type="text"], .signup input[type="email"], .signup input[type="number"], .signup input[type="password"], .signup select  {
+   width: 100%; 
+   padding: 12px;
+   margin: 8px 0; 
+   border: 1px solid #ddd;
+   border-radius: 4px;
+}
+.signup input[type="submit"] {
+  background-color: #28a745; /* Example green color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+[type=text],[type=email],[type=number],[type=password],select,option {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: black;
+}
+
+[type=submit] {
+    margin-top: 25px;
+    width: 40%;  /* Adjust percentage as needed */
+    padding: 12px 15px; /* Let padding determine height */
+    border: 0;
+    background-color: #0080FF;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+}
+
+[type='text']:focus {
+  outline: none;
+  border-color: #53CACE;
+}
+
+h1 {
+    color: #333; /* Example:  Darker color instead of  red */
+    font-weight: 700;  /* Bold, but not extra bold */
+    font-size: 2em;
+}
+
+p {
+  color: rgba(0,0,0,.6);
+  font-size: 1.2em;
+  margin: 50px 0 50px 0;
+}
+
+span {
+  font-size: .75em;
+  background-color: white;
+  padding: 2px 5px;
+  color: rgba(0,0,0,.6);
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  margin: 5px;
+}
+
+span:hover {
+  color: #53CACE;
+}
+
+p:nth-of-type(2) {
+  font-size: 1em;
+}
+.whysign {
+  text-align: center;
+}
+.whysign h2 {
+    color: #333; /* Darker heading color */
+}
